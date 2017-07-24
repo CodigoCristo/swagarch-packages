@@ -1,7 +1,7 @@
 # Maintainer: Mike Krüger <mikekrueger81@gmail.com>
 
 pkgname=swagarch-base-skel
-pkgver=20170127
+pkgver=20170724
 pkgrel=1
 pkgdesc='SwagArch base skeleton files'
 arch=('any')
@@ -11,7 +11,7 @@ makedepends=('git')
 source=("git+$url.git")
 sha256sums=('SKIP')
 install=$pkgname.install
-depends=('mugshot')
+depends=('mugshot' 'ttf-ubuntu-font-family')
 conflicts=('gstreamer0.10-plugins')
 
 pkgver() {
