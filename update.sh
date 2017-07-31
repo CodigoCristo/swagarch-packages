@@ -29,7 +29,6 @@ function cloneall() {
     git clone https://aur.archlinux.org/mac-os-lion-cursors.git 
     git clone https://aur.archlinux.org/arc-firefox-theme-git.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
-    git clone https://aur.archlinux.org/qt5-styleplugins.git
     git clone https://aur.archlinux.org/qgnomeplatform-git.git
     git clone https://aur.archlinux.org/fsearch-git.git
     git clone https://aur.archlinux.org/ckbcomp.git 
