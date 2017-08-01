@@ -3,12 +3,12 @@
 _name=thunar-shares-plugin
 pkgname=thunar-shares-plugin-swagarch
 pkgver=0.2.0.git
-pkgrel=5
+pkgrel=6
 pkgdesc="Thunar plugin to quickly share a folder using Samba without requiring root access (with auto-setup)"
 arch=('i686' 'x86_64')
 url="http://goodies.xfce.org/projects/thunar-plugins/${_name}"
 license=('GPL2' 'LGPL')
-depends=('thunar' 'samba')
+depends=('thunar' 'samba-patched')
 makedepends=('xfce4-dev-tools')
 backup=('etc/samba/smb.conf')
 provides=("${_name}=${pkgver}")
