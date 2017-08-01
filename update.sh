@@ -41,7 +41,6 @@ function cloneall() {
     git clone https://aur.archlinux.org/xed.git
     git clone https://aur.archlinux.org/xreader.git
     git clone https://aur.archlinux.org/gnome-mpv.git
-    git clone https://github.com/SwagArch/samba-patched.git
     
     #Get calamares package
     get_package "calamares" \
