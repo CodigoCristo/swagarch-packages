@@ -41,6 +41,7 @@ function cloneall() {
     git clone https://aur.archlinux.org/xed.git
     git clone https://aur.archlinux.org/xreader.git
     git clone https://aur.archlinux.org/gnome-mpv.git
+    git clone https://aur.archlinux.org/gtk-theme-windows10.git
     
     #Get calamares package
     get_package "calamares" \
@@ -56,6 +57,11 @@ function cloneall() {
     get_package "swagarch-base-skel" \
     "https://raw.githubusercontent.com/SwagArch/desktop-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/SwagArch/desktop-settings/master/pkg/swagarch-base-skel.install"
+
+    #Get gnome-swagarch-base-skel package
+    get_package "gnome-swagarch-base-skel" \
+    "https://raw.githubusercontent.com/MANoj420/gnome-desktop-settings/master/PKGBUILD" \
+    "https://raw.githubusercontent.com/MANoj420/gnome-desktop-settings/master/gnome-swagarch-base-skel.install"
 
     #Get light-locker-settings
     get_package "light-locker-settings" \
